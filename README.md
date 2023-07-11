@@ -4,6 +4,14 @@ Clash repo site: [click me](https://github.com/Dreamacro/clash)
 
 ## How To Use It
 
+### Docker
+1. `git clone` this repo and `cd`.
+2. `docker image build -t clash_dashboard:0.0.2` .
+3. `docker container run -p 8080:8080 -d clash_dashboard:0.0.2`
+3. Open the website: `http://localhost:8080/`，enjoy :)
+
+### Manual
+
 1. At first you should install nginx from your distribution's repository. For me, I'm using Arch Linux
 
 ```bash
